@@ -1,4 +1,4 @@
-﻿namespace StackLayoutDemo
+﻿namespace HorizontalAndVerticalStackDemo
 {
     public partial class AppShell : Shell
     {

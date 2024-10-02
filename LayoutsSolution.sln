@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackLayoutDemo", "StackLayoutDemo\StackLayoutDemo.csproj", "{F136FB93-8623-4CE3-B429-A240F2218416}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StackLayoutDemo", "StackLayoutDemo\StackLayoutDemo.csproj", "{F136FB93-8623-4CE3-B429-A240F2218416}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HorizontalAndVerticalStackDemo", "HorizontalAndVerticalStackDemo\HorizontalAndVerticalStackDemo.csproj", "{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridLayoutDemo", "GridLayoutDemo\GridLayoutDemo.csproj", "{E6E38111-1479-4787-9D9D-1A089960095C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio1", "Ejercicio!\Ejercicio1.csproj", "{AC50A248-15A7-4014-A0E7-7D775050CD95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajedrez", "Ajedrez\Ajedrez.csproj", "{0BA19E9A-F132-416F-9E89-765B8C9543EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +25,30 @@ Global
 		{F136FB93-8623-4CE3-B429-A240F2218416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F136FB93-8623-4CE3-B429-A240F2218416}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F136FB93-8623-4CE3-B429-A240F2218416}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D0B4EE1-839A-4C8E-ABC9-FCA263DF7597}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E38111-1479-4787-9D9D-1A089960095C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC50A248-15A7-4014-A0E7-7D775050CD95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BA19E9A-F132-416F-9E89-765B8C9543EB}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

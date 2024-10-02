@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GridLayoutDemo.GrindlayoutPageDemo"
+             Title="GrindlayoutPageDemo">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition  Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Button Grid.ColumnSpan="2" Text="boton1" BackgroundColor="BlueViolet" ></Button>
+        <Button Grid.RowSpan="2" Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+    </Grid>
+</ContentPage>

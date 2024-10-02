@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio_.EjercicioUnoPage"
+             Title="EjercicioUnoPage">
+    <Grid BackgroundColor="BlanchedAlmond">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"></RowDefinition>
+            <RowDefinition  Height="9*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid ColumnDefinitions="*,*,*,*">
+
+            <Button Grid.Column="0" Text="boton1" BackgroundColor="BlueViolet" Margin="2,0,0,0"></Button>
+            <Button  Grid.Column="1" Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button  Grid.Column="2"  Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button  Grid.Column="3" Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            
+        </Grid>
+
+
+        <!--   <HorizontalStackLayout Spacing="10">
+            <Button Text="boton1" BackgroundColor="BlueViolet" Margin="20,0,0,0"></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+            <Button Text="boton1" BackgroundColor="BlueViolet" ></Button>
+            <Button Text="boton2"  BackgroundColor="LavenderBlush"></Button>
+        </HorizontalStackLayout> -->
+
+            <Grid Grid.Row="1" BackgroundColor="Aqua">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="9*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            <ScrollView>
+                <VerticalStackLayout Grid.Column="0" BackgroundColor="MediumOrchid">
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick"></Button>
+                <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick"></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick"></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick"></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"  ></Button>
+                    <Button Text="boton1" BackgroundColor="PapayaWhip" TextColor="Firebrick" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightCoral"></Button>
+                </VerticalStackLayout>
+            </ScrollView>
+            <VerticalStackLayout Grid.Column="1" BackgroundColor="Orchid">
+                    <Button Text="boton1" BackgroundColor="NavajoWhite" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightPink"></Button>
+                    <Button Text="boton1" BackgroundColor="NavajoWhite" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightPink"></Button>
+                    <Button Text="boton1" BackgroundColor="NavajoWhite" ></Button>
+                    <Button Text="boton2"  BackgroundColor="LightPink"></Button>
+                </VerticalStackLayout>
+            </Grid>
+
+
+        </Grid>
+   
+</ContentPage>
